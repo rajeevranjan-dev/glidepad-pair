@@ -14,7 +14,7 @@ Fire TV won't pair with a phone from its own Bluetooth settings: it hides phones
 
 1. On the Fire TV, install **Downloader** from the Appstore.
 2. Let Downloader install apps: open Settings › My Fire TV › About and select your TV's name 7 times, until it says you're a developer. Go Back, then open Developer options › Install unknown apps and turn on Downloader.
-3. Open Downloader and enter this address:
+3. Open Downloader and enter the code **5470148**. If the code doesn't work, enter this address instead:
    `https://github.com/rajeevranjan-dev/glidepad-pair/releases/latest/download/glidepad-pair.apk`
 4. Select Install, then Open.
 
