@@ -7,8 +7,8 @@ Fire TV won't pair with a phone from its own Bluetooth settings: it hides phones
 ## What you need
 
 - GlidePad on your Android phone.
-- A Fire TV with **Fire OS**. To check, open Settings › My Fire TV › About on the TV: it says "Fire OS". Fire TVs with **Vega OS** can't install apps from outside the Appstore, so they can't run GlidePad Pair.
-- Tested on a Fire TV Stick 4K Plus with Fire OS 8. Other Fire TVs with Fire OS 7 or 8 should work, but haven't been tested yet.
+- A Fire TV with **Fire OS 7 or newer**. To check, open Settings › My Fire TV › About on the TV: it says "Fire OS" and the version. Older Fire TVs (Fire OS 5 or 6) can't install it, and Fire TVs with **Vega OS** can't install apps from outside the Appstore, so neither can run GlidePad Pair.
+- Tested on a Fire TV Stick 4K Plus with Fire OS 8. Other Fire TVs with Fire OS 7 or newer should work, but haven't been tested yet.
 
 ## Install
 
@@ -39,7 +39,8 @@ GlidePad Pair has no internet permission. It collects, stores and sends nothing.
 
 | Version | Date | Notes |
 |---|---|---|
-| 1.0.0 | 2026-10-10 | First release. Fire TV with Fire OS. |
+| 1.0.1 | 2026-10-10 | Sends a blocked Bluetooth permission to Settings, finishes replacing an old pairing more reliably, no longer closes if the system's dialog can't open, and matches names with accents in any case. Installs over 1.0.0 with the same code. |
+| 1.0.0 | 2026-10-10 | First release. Fire TV with Fire OS 7 or newer. |
 
 The APK is signed with a certificate whose SHA-256 is `f679880e48a2c08674cca66a969d860f1b779dbad4594177859f1b8d99c7cb14`.
 
